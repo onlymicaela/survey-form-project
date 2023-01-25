@@ -1,0 +1,123 @@
+body {
+    background-color: #cac3e8;
+    background-image:  linear-gradient(rgba(104, 53, 176, 0.5) 1px, transparent 1px), linear-gradient(to right, rgba(104, 53, 176, 0.5) 1px, #cac3e8 1px);
+    background-size: 32px 32px;
+  }
+  
+  h1, .description-div, footer {
+    color: #FFFFFF;
+    font-family: andale mono, monospace;
+    text-align: center;
+  }
+  
+  .description-div {
+    max-width: 50%;
+    background-color: #ec5df1;
+    width: fit-content;
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  
+  .form-background {
+    background: rgba(236, 93, 241, 0.2);
+    border: 1px solid #ec5df1;
+    width: 70%;
+    margin: -15px auto auto auto;
+    box-shadow: 0px 10px 21px rgba(236, 93, 241, 0.2);
+    padding: 20px;
+  }
+  
+  form {
+    background-color: #FFFFFF;
+    margin: 30px;
+    font-family: andale mono, monospace;
+    padding: 20px;
+  }
+  
+  fieldset {
+    margin: 0;
+    border: 0;
+  }
+  
+  hr {
+    border: 1px double rgba(189, 16, 224, 0.1);
+    width: 70%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  input[id=name], input[id=email], select, input[id=number], textarea, button  {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  input, select, textarea {
+    background-color: #FFFFFF;
+    border: 1px solid #bfbcd2;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: andale mono, monospace;
+  }
+  
+  
+  textarea {
+    display: block;
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .myButton {
+      box-shadow:inset 0px 1px 0px 0px #efdcfb;
+      background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+      background-color:#dfbdfa;
+      border-radius:6px;
+      border:1px solid #c584f3;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:15px;
+      font-weight:bold;
+      padding:6px 24px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #9752cc;
+  }
+  .myButton:hover {
+      background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+      background-color:#bc80ea;
+  }
+  .myButton:active {
+      position:relative;
+      top:1px;
+  }
+  
+  footer {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  a:link {
+    color: #FFFFFF;
+    text-decoration: underlined;
+  }   
+  
+  a:visited {
+    color:  #ec5df1;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:  #FFFFFF;
+    text-decoration: none;
+    background-color: #ec5df1;
+    border: 1px solid #ec5df1;
+    border-radius: 3px;
+    padding: 3px;
+  }
